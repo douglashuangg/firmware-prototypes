@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OFS_Driver/Core/Src/MSP_format&apos; to &apos;MSP_format.cpp&apos;" description="Rename resource &apos;MSP_format&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/MSP_format" name="MSP_format.cpp" stamp="1675658097929" updateReferences="true"/>
+</session>
