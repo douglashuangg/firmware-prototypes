@@ -1,0 +1,32 @@
+/*
+ * optical_flow.c
+ *
+ *  Created on: Jan 30, 2023
+ *      Author: hdoug
+ */
+#include <stdbool.h>
+#include <stdint.h>
+#include <string.h>
+#include <math.h>
+#include "Inc/optical_flow.h"
+
+opflow_t opflow;
+
+static bool opflowIsCalibrating = false;
+static timeMs_t opflowCalibrationStartedAt;
+static float opflowCalibrationBodyAcc;
+static float opflowCalibrationFlowAcc;
+
+
+// INITIALIZATION
+
+
+// read data from sensor
+int read_flow_data(){
+	uint8_t rx_data[18];
+	HAL_UART_Receive_IT(&huart1, rx_data, 18);
+}
+
+// CALIBRATION
+
+// UPDATE FUNCTION

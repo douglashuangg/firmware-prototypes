@@ -1,0 +1,36 @@
+/*
+ * optical_flow.c
+ *
+ *  Created on: Jan 30, 2023
+ *      Author: hdoug
+ */
+#include <stdbool.h>
+#include <stdint.h>
+#include <string.h>
+#include <math.h>
+#include "Inc/optical_flow.h"
+#include "MSP_format.h"
+
+uint8_t rx_data[18];
+
+// read data from sensor
+int read_flow_data(){
+	HAL_UART_Receive_IT(&huart1, rx_data, 18);
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	// do the processing here.
+	msp_format_t msp_data;
+	msp_parse_received_data(&msp_data, rx_data);
+	if(msp_data.c_state == MSP_COMMAND_RECEIVED){
+		// do further processing
+	}
+	read_flow_data();
+}
+
+// INITIALIZATION
+
+// CALIBRATION
+
+// UPDATE FUNCTION

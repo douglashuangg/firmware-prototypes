@@ -9,72 +9,32 @@
 #define INC_OPTICAL_FLOW_H_
 
 #include <stdint.h>
-#include "uart.h" // need for msp
+#include "MSP_format.h"
+
+
+// USEFUL
+typedef struct raw_opflow_data {
+	uint8_t quality;
+	uint32_t motion_x;
+	uint32_t motion_y;
+} raw_opflow_data_t;
+
 
 // define registers
 
-
 // INITIALIZATION
-
 
 // DATA ACQUISITION
 
-
 // LOW-LEVEL FUNCTIONS
 
+// bool opflowInit(void);
+// void opflowUpdate(timeUs_t currentTimeUs);
+void opFlowUpdate(msp_format_t *raw_data);
 
+void read_flow_data();
 
-
-typedef struct virtualOpflowVTable_s {
-    bool (*detect)(void);
-    bool (*init)(void);
-    bool (*update)(opflowData_t * data);
-} virtualOpflowVTable_t;
-
-// Called in initialization function
-bool virtualOpflowDetect(opflowDev_t * dev, const virtualOpflowVTable_t * vtable);
-
-
-typedef struct opflowDev_s {
-    sensorOpflowInitFuncPtr initFn;
-    sensorOpflowUpdateFuncPtr updateFn;
-    opflowData_t rawData;
-} opflowDev_t;
-
-typedef enum {
-    OPFLOW_QUALITY_INVALID,
-    OPFLOW_QUALITY_VALID
-} opflowQuality_e;
-
-typedef struct opticalFlowConfig_s  {
-    uint8_t opflow_hardware;
-    uint8_t opflow_align;
-    float   opflow_scale;       // Scaler value to convert between raw sensor units to [deg/s]
-} opticalFlowConfig_t;
-
-typedef struct opflow_s {
-    opflowDev_t dev;
-    opflowQuality_e flowQuality;
-    timeUs_t        lastValidUpdate;
-    bool            isHwHealty;
-    float           flowRate[2];    // optical flow angular rate in rad/sec measured about the X and Y body axis
-    float           bodyRate[2];    // body inertial angular rate in rad/sec measured about the X and Y body axis
-    float           gyroBodyRateAcc[2];
-    timeUs_t        gyroBodyRateTimeUs;
-    uint8_t         rawQuality;
-} opflow_t;
-
-// time of measurement, sensorid, flow in x/y, compensated flow in x/y, quality of measurement, grounddistance.
-
-extern opflow_t opflow;
-
-void opflowGyroUpdateCallback(timeUs_t gyroUpdateDeltaUs);
-bool opflowIsHealthy(void);
-void opflowStartCalibration(void);
-
-// My written functions
-bool opflowInit(void);
-void opflowUpdate(timeUs_t currentTimeUs);
+void process_opflow(uint8_t * rx_data);
 
 
 

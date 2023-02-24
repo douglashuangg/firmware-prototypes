@@ -664,3 +664,738 @@
 
 
 2023-02-12 18:15:59,678 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-12 18:16:29,219 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-12 18:16:29,219 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-12 18:16:29,220 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-12 18:36:48,247 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-02-12 18:36:49,983 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646
+2023-02-12 18:36:50,007 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/mcu/
+2023-02-12 18:36:50,009 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/boardmanager/
+2023-02-12 18:36:50,010 [WARN] ApiDb:258 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/mcufinder/images/
+2023-02-12 18:36:50,031 [INFO] ApiDb:249 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-12 18:36:50,033 [INFO] DbMcusAds:124 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-12 18:36:50,094 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-02-12 18:36:50,210 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-02-12 18:36:50,329 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/mcu/
+2023-02-12 18:36:50,329 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/boardmanager/
+2023-02-12 18:36:50,330 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/mcufinder/images/
+2023-02-12 18:36:50,330 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,330 [INFO] ApiDb:249 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-12 18:36:50,330 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,331 [INFO] DbMcusAds:124 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-12 18:36:50,331 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,332 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,332 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-02-12 18:36:50,438 [INFO] MainPanel:252 - HeapMemory: 481296384
+2023-02-12 18:36:50,571 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/mcu/
+2023-02-12 18:36:50,571 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/boardmanager/
+2023-02-12 18:36:50,571 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/mcufinder/images/
+2023-02-12 18:36:50,572 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,573 [INFO] ApiDb:249 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-12 18:36:50,573 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,573 [INFO] DbMcusAds:124 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-12 18:36:50,573 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,574 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hdoug\.stmcufinder\plugins\mcufinder/ => C:\Users\hdoug\.stmcufinder\plugins\mcufinder
+2023-02-12 18:36:50,574 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\hdoug\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-02-12 18:36:50,599 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646
+2023-02-12 18:36:50,601 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-02-12 18:36:50,604 [INFO] PluginManage:307 - Check plugin analytics
+2023-02-12 18:36:50,805 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2023-02-12 18:36:50,807 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-02-12 18:36:50,807 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: FW.L5.1.5.0
+2023-02-12 18:36:50,815 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-02-12 18:36:50,816 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-02-12 18:36:50,834 [INFO] CADModel:104 - Init CAD model plugin
+2023-02-12 18:36:50,834 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-02-12 18:36:50,834 [INFO] PluginManage:307 - Check plugin clock
+2023-02-12 18:36:50,857 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-02-12 18:36:50,857 [INFO] PluginManage:307 - Check plugin ddr
+2023-02-12 18:36:50,861 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-02-12 18:36:50,861 [INFO] PluginManage:307 - Check plugin filemanager
+2023-02-12 18:36:51,017 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-02-12 18:36:51,017 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-02-12 18:36:51,028 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-02-12 18:36:51,028 [INFO] PluginManage:307 - Check plugin lpbam
+2023-02-12 18:36:51,049 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-02-12 18:36:51,049 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-02-12 18:36:51,069 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-02-12 18:36:51,069 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-02-12 18:36:51,116 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-02-12 18:36:51,117 [INFO] PluginManage:307 - Check plugin power
+2023-02-12 18:36:51,140 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-02-12 18:36:51,140 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-02-12 18:36:51,169 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-02-12 18:36:51,170 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-02-12 18:36:51,474 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-02-12 18:36:51,475 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-02-12 18:36:51,476 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-02-12 18:36:51,476 [INFO] PluginManage:307 - Check plugin tools
+2023-02-12 18:36:51,477 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-02-12 18:36:51,503 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-02-12 18:36:51,503 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-02-12 18:36:51,769 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-02-12 18:36:51,769 [INFO] PluginManage:307 - Check plugin updater
+2023-02-12 18:36:51,793 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-02-12 18:36:51,794 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-02-12 18:36:52,095 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-02-12 18:36:52,186 [INFO] CADModel:164 - CPN selected for project level
+2023-02-12 18:36:52,187 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-12 18:36:52,218 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,218 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-02-12 18:36:52,249 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,250 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-02-12 18:36:52,282 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,283 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-02-12 18:36:52,304 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,305 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-02-12 18:36:52,336 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,336 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-02-12 18:36:52,372 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,372 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-02-12 18:36:52,386 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,386 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-02-12 18:36:52,426 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,426 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-02-12 18:36:52,443 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,444 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-02-12 18:36:52,492 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,493 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-02-12 18:36:52,515 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,515 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-02-12 18:36:52,542 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,542 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-02-12 18:36:52,651 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,651 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-02-12 18:36:52,773 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,773 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-02-12 18:36:52,792 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,792 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-02-12 18:36:52,871 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,871 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-02-12 18:36:52,900 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,900 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-02-12 18:36:52,948 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,949 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-02-12 18:36:52,984 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:52,984 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-02-12 18:36:53,077 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,077 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-02-12 18:36:53,157 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,158 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-02-12 18:36:53,186 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,186 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-02-12 18:36:53,216 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,216 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-02-12 18:36:53,231 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,231 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-02-12 18:36:53,245 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,246 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-02-12 18:36:53,274 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,274 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-02-12 18:36:53,325 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,325 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-02-12 18:36:53,364 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,365 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-02-12 18:36:53,382 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,385 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-02-12 18:36:53,407 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,408 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-02-12 18:36:53,421 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,422 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-02-12 18:36:53,466 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,466 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-02-12 18:36:53,500 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,500 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-02-12 18:36:53,547 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,547 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-02-12 18:36:53,568 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,568 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-02-12 18:36:53,617 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,618 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-02-12 18:36:53,638 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,638 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-02-12 18:36:53,664 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,664 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-02-12 18:36:53,682 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,682 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-02-12 18:36:53,702 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,703 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-02-12 18:36:53,738 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,738 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-02-12 18:36:53,774 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:36:53,775 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-02-12 18:36:53,922 [INFO] CADModel:164 - CPN selected for project level
+2023-02-12 18:36:53,922 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-12 18:36:53,922 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:53,922 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-02-12 18:36:54,103 [INFO] CADModel:164 - CPN selected for project level
+2023-02-12 18:36:54,103 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-12 18:36:54,103 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,103 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-02-12 18:36:54,107 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,257 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,275 [INFO] DbMcusAds:52 - JSON generation date=Wed Jan 18 09:17:18 EST 2023 (1674051438939)
+2023-02-12 18:36:54,276 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,361 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-02-12 18:36:54,479 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-02-12 18:36:54,503 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,506 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,506 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,507 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-02-12 18:36:54,507 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-12 18:36:54,572 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-02-12 18:36:54,583 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-02-12 18:36:54,611 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646
+2023-02-12 18:36:54,894 [INFO] MainUpdater:2800 - connection check result : 10
+2023-02-12 18:36:54,895 [INFO] MainUpdater:3494 - Updater definition file requires update
+2023-02-12 18:36:54,897 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-02-12 18:36:54,898 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-02-12 18:36:54,933 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2023-02-12 18:36:54,994 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2023-02-12 18:36:54,995 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-02-12 18:36:55,632 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2023-02-12 18:36:55,686 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2023-02-12 18:36:56,376 [INFO] ServerAccessManage:474 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2023-02-12 18:36:57,491 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-12 18:36:57,492 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2023-02-12 18:36:57,746 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2023-02-12 18:36:57,797 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-02-12 18:36:57,823 [INFO] MainUpdater:2800 - connection check result : 10
+2023-02-12 18:36:57,832 [INFO] MainUpdater:2800 - connection check result : 10
+2023-02-12 18:36:57,921 [INFO] PopulateThirdPartyThread:64 - Ending populate Thread
+2023-02-12 18:36:57,923 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-02-12 18:36:57,923 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-02-12 18:36:58,060 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-02-12 18:36:58,060 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-02-12 18:36:58,060 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-02-12 18:37:00,672 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-02-12 18:37:00,704 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-02-12 18:37:00,742 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-02-12 18:37:00,761 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-02-12 18:37:00,782 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-02-12 18:37:00,797 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.5
+2023-02-12 18:37:00,814 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-02-12 18:37:00,829 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.3
+2023-02-12 18:37:00,844 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-02-12 18:37:00,860 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-02-12 18:37:00,875 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-02-12 18:37:00,890 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-02-12 18:37:00,902 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-02-12 18:37:00,920 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-02-12 18:37:00,954 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-02-12 18:37:00,968 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-02-12 18:37:00,984 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-02-12 18:37:01,014 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2023-02-12 18:37:01,029 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2023-02-12 18:37:01,040 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.0
+2023-02-12 18:37:01,089 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2023-02-12 18:37:01,233 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-02-12 18:37:01,249 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-02-12 18:37:01,286 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-02-12 18:37:01,339 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-02-12 18:37:01,363 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-02-12 18:37:01,385 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-02-12 18:37:01,393 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-02-12 18:37:01,411 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-02-12 18:37:01,441 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-02-12 18:37:01,449 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-02-12 18:37:01,481 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-02-12 18:37:01,498 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2023-02-12 18:37:01,521 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-02-12 18:37:01,538 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-02-12 18:37:01,552 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-02-12 18:37:01,586 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2023-02-12 18:37:01,756 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-02-12 18:37:01,768 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2023-02-12 18:37:01,802 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.0
+2023-02-12 18:37:01,829 [INFO] ThirdParty:947 - Integrity check success = true
+2023-02-12 18:37:01,829 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-02-12 18:37:01,829 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-02-12 18:37:01,829 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-02-12 18:37:01,830 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-02-12 18:37:01,833 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-02-12 18:37:01,838 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 565753176 Bytes (789577728)
+2023-02-12 18:37:01,839 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-02-12 18:37:01,839 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-02-12 18:37:01,839 [INFO] OpenFileManager:307 - Change cursor
+2023-02-12 18:37:01,891 [INFO] Mcu:1925 - Initializing MCU STM32L552Z(C-E)TxQ STM32L552ZETxQ STM32L552ZET6Q
+2023-02-12 18:37:03,821 [WARN] Context:671 - Trying to add IP FREERTOS in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:04,644 [WARN] Context:671 - Trying to add IP PWR in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:04,755 [WARN] Context:671 - Trying to add IP RCC in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:04,832 [WARN] Context:671 - Trying to add IP RTC in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:05,158 [WARN] Context:671 - Trying to add IP SYS in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:05,230 [WARN] Context:671 - Trying to add IP TAMP in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:07,585 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-02-12 18:37:07,586 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-02-12 18:37:07,586 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-02-12 18:37:07,586 [WARN] Context:671 - Trying to add IP GPIO in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:07,619 [WARN] Context:671 - Trying to add IP DMA in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:07,675 [WARN] Context:671 - Trying to add IP NVIC2 in context CortexM33 not assigned to a contextSplit
+2023-02-12 18:37:09,571 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-02-12 18:37:09,571 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-02-12 18:37:09,571 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-02-12 18:37:09,571 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-02-12 18:37:09,572 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-02-12 18:37:09,587 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,587 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,587 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,587 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,588 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,588 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,588 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,588 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,588 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,588 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,590 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,591 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-02-12 18:37:09,818 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-02-12 18:37:10,428 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-02-12 18:37:10,460 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (CommonPathInternal) has invalid value (null|null|null|null)
+2023-02-12 18:37:10,484 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-02-12 18:37:12,595 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 577525304 Bytes (789577728)
+2023-02-12 18:37:12,813 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (C:\Users\hdoug\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2023-02-12 18:37:12,940 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-02-12 18:37:12,940 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-02-12 18:37:12,940 [INFO] ApiDb:669 - CubeFinder database generation date=2023-01-18 (1674054071)
+2023-02-12 18:37:12,940 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WBA_V0.2.0, STM32Cube_FW_WB_V1.15.0, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-02-12 18:37:15,785 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-02-12 18:37:15,789 [INFO] DbMcus:215 - Found 3582 MCUs, 3582 are supported
+2023-02-12 18:37:15,792 [INFO] ApiDb:422 - Load user favorites file C:\Users\hdoug/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-02-12 18:37:15,793 [INFO] ApiDb:426 - User favorites MCUs=[]
+2023-02-12 18:37:15,793 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2023-02-12 18:37:16,075 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-02-12 18:37:16,075 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-02-12 18:37:16,076 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.3
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-02-12 18:37:16,077 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-02-12 18:37:16,078 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-02-12 18:37:16,861 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-02-12 18:37:16,862 [INFO] PinOutPanel:1477 - setPackage(STM32L552ZETxQ,LQFP144)
+2023-02-12 18:37:17,848 [INFO] UtilMem:74 - Before build in PCC Used Memory: 659203072 Bytes (789577728)
+2023-02-12 18:37:20,132 [INFO] UtilMem:74 - After build in PCC Used Memory: 668976640 Bytes (789577728)
+2023-02-12 18:37:20,206 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,206 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,206 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,207 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,207 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,208 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,209 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,210 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,210 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,210 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,210 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,210 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,210 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,211 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,212 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,212 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,212 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,212 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,213 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,213 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,213 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,213 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,213 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,214 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,214 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,214 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,214 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,214 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,215 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,215 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,216 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,216 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,217 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,217 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,218 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,218 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,218 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,218 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,219 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,219 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,219 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,219 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,220 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,220 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,220 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,220 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,221 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,221 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,221 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,221 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,222 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,222 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,222 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,223 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,223 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,223 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,223 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,224 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,224 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,224 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,225 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,225 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,226 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,226 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-12 18:37:20,497 [INFO] CADModel:164 - CPN selected for project levelSTM32L552ZET6Q
+2023-02-12 18:37:20,497 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-12 18:37:20,550 [INFO] OpenFileManager:327 - Restore cursor
+2023-02-12 18:37:20,840 [WARN] IP:2112 - rtcSecureFull not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - rtcNonSecureFeatures not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_NONE not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_INIT not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_ALRA not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_ALRB not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_TS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_CAL not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_WUT not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - Sec_BKP_Registers1 not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - backupRegisterStartZone2_gS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,841 [WARN] IP:2112 - backupRegisterStartZone3_gS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,842 [WARN] IP:2112 - rtcSecureFull not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,842 [WARN] IP:2112 - rtcNonSecureFeatures not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_NONE not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_INIT not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_ALRA not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_ALRB not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_TS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_CAL not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_WUT not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - Sec_BKP_Registers1 not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - backupRegisterStartZone2_gS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:37:20,843 [WARN] IP:2112 - backupRegisterStartZone3_gS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:33,327 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 612931496 Bytes (789577728)
+2023-02-12 18:41:34,610 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 661660376 Bytes (789577728)
+2023-02-12 18:41:37,857 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 665530864 Bytes (789577728)
+2023-02-12 18:41:42,546 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UCPD
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: PWR
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB
+2023-02-12 18:41:42,547 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DEBUG
+2023-02-12 18:41:42,548 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-02-12 18:41:42,549 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2023-02-12 18:41:42,606 [WARN] IP:2112 - rtcSecureFull not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - rtcNonSecureFeatures not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_NONE not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_INIT not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_ALRA not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_ALRB not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_TS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_CAL not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - RTC_NONSECURE_FEATURE_WUT not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - Sec_BKP_Registers1 not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - backupRegisterStartZone2_gS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,607 [WARN] IP:2112 - backupRegisterStartZone3_gS not found: check if there is a RefParameter without a condition.
+2023-02-12 18:41:42,908 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\MXTmpFiles\license.tmp_save
+2023-02-12 18:41:43,353 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\MXTmpFiles\license.tmp
+2023-02-12 18:41:43,579 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\MXTmpFiles\gpio.tmp_save
+2023-02-12 18:41:43,767 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\MXTmpFiles\gpio.tmp
+2023-02-12 18:41:43,964 [WARN] IPConfigManager:98 - WARNING: Missing Config File for DEBUG ip!!
+2023-02-12 18:41:44,833 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Src\stm32l5xx_it.c_save
+2023-02-12 18:41:44,978 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Src\stm32l5xx_it.c
+2023-02-12 18:41:44,994 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\stm32l5xx_it.h_save
+2023-02-12 18:41:45,116 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\stm32l5xx_it.h
+2023-02-12 18:41:45,209 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Src\stm32l5xx_hal_msp.c_save
+2023-02-12 18:41:45,444 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Src\stm32l5xx_hal_msp.c
+2023-02-12 18:41:45,472 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\MXTmpFiles\system.tmp_save
+2023-02-12 18:41:45,564 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\MXTmpFiles\system.tmp
+2023-02-12 18:41:45,580 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\stm32_assert.h_save
+2023-02-12 18:41:45,674 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\stm32_assert.h
+2023-02-12 18:41:45,706 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\stm32l5xx_hal_conf.h_save
+2023-02-12 18:41:45,823 [INFO] CodeEngine:327 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\stm32l5xx_hal_conf.h
+2023-02-12 18:41:45,935 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\main.h_save
+2023-02-12 18:41:46,071 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Inc\main.h
+2023-02-12 18:41:46,098 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Src\main.c_save
+2023-02-12 18:41:46,325 [INFO] CodeEngine:271 - Generated code: C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\Core\Src\main.c
+2023-02-12 18:41:48,002 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 740mS.
+2023-02-12 18:41:48,017 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-02-12 18:41:48,399 [INFO] ConfigFileManager:1396 - The Die is : DIE472
+2023-02-12 18:41:48,419 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-02-12 18:41:48,432 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-02-12 18:41:48,449 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2023-02-12 18:41:48,614 [INFO] ApiDbMcu:505 - Load IP Config File for TOUCHSENSING
+2023-02-12 18:41:48,637 [INFO] ApiDbMcu:505 - Load IP Config File for USBPD
+2023-02-12 18:41:48,655 [INFO] ApiDbMcu:505 - Load IP Config File for USB_Device
+2023-02-12 18:41:52,354 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 4333mS.
+2023-02-12 18:41:52,356 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-02-12 18:41:52,364 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-02-18 02:04:46,690 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:46,809 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,084 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,086 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,143 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,144 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,218 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,219 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,260 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,260 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,309 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,309 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,345 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,345 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,384 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,384 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,433 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,434 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,473 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,484 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,547 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,547 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,635 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,636 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,665 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,666 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,740 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,740 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,774 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,774 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,827 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,827 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,852 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,853 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,884 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,885 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,909 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,909 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:47,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:47,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,025 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,025 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,163 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,164 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,241 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,241 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,271 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,272 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,306 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,306 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,333 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,333 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,363 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,363 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,395 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,395 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,419 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,419 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,447 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,447 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,563 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,563 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,723 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,723 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,761 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,761 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,821 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,821 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,854 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,854 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,903 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,903 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,935 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,936 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:48,972 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:48,972 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,000 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,000 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,345 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,345 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,426 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,426 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,454 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,454 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,486 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,487 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,541 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,541 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,719 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,719 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,770 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,771 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,799 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,799 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,845 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,845 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,896 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,933 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,933 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:49,976 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:49,977 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,006 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,006 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,043 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,043 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,095 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,095 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,149 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,149 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,245 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,245 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,276 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,276 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,337 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,337 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,364 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,364 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,394 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,394 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,421 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,421 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,456 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,456 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,480 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,480 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,513 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,514 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,545 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,546 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,628 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,630 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,660 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,666 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,695 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,696 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,732 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,734 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,762 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,762 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,781 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,824 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,824 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,867 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,868 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,896 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,896 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,923 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,923 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,957 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,957 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:50,984 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:50,984 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,014 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,014 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,037 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,038 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,064 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,064 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,094 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,094 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,117 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,117 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,139 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,139 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:51,496 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:51,497 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:52,477 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:52,477 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:53,476 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:53,476 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:54,479 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:54,479 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-18 02:04:55,497 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2023-02-18 02:04:55,497 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-02-23 12:28:11,269 [INFO] Activator:179 - 
+
+
+2023-02-23 12:28:11,271 [INFO] Activator:180 - !SESSION log4j initialized

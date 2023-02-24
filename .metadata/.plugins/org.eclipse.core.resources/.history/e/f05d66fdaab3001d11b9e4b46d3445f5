@@ -1,0 +1,19 @@
+#include <stdint.h>
+#include "MSP_format.h"
+
+uint8_t msp_serial_checksum(uint8_t checksum, const uint8_t *data, uint32_t len)
+{
+    while (len-- > 0) {
+        checksum ^= *data++;
+    }
+    return checksum;
+}
+
+bool msp_parse_received_data(uint8_t * raw_data){
+	if(raw_data[0] != '$'){
+		return 0;
+	}
+
+}
+
+

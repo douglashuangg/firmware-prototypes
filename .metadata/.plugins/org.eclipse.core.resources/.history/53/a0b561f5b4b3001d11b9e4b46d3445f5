@@ -1,0 +1,36 @@
+#include <stdint.h>
+#include "MSP_format.h"
+
+
+uint8_t MSP_HEADER_START = 0x24;
+
+
+
+uint8_t msp_serial_checksum(uint8_t checksum, const uint8_t *data, uint32_t len)
+{
+    while (len-- > 0) {
+        checksum ^= *data++;
+    }
+    return checksum;
+}
+
+bool msp_parse_received_data(msp_format_t *msp, uint8_t * raw_data){
+	if(raw_data[0] != MSP_HEADER_START){
+		return 0;
+	}
+
+	uint8_t offset = 8;
+	msp->cmd_flags = raw_data[3];
+	msp->id = (raw_data[4] << 8 | raw_data[5]);
+	msp->data_size = (raw_data[6] << 8 | raw_data[7]);
+	for(int i = 0; i < (data_size/0x100) ; i++){ // 0x100 is 256 in hex
+		msp->payload[i] = raw_data[offset];
+		offset++;
+	}
+	msp->checksum1
+
+
+
+}
+
+

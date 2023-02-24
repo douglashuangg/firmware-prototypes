@@ -1,0 +1,14 @@
+21:11:35 **** Incremental Build of configuration Debug for project OFS_Driver ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/optical_flow.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../Drivers/STM32L5xx_HAL_Driver/Inc -I../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/optical_flow.d" -MT"Core/Src/optical_flow.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/optical_flow.o"
+arm-none-eabi-g++ -o "OFS_Driver.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\hdoug\OneDrive - University of Waterloo\Documents\_1WARG\firmware-prototypes\OFS_Driver\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="OFS_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: OFS_Driver.elf
+ 
+arm-none-eabi-size   OFS_Driver.elf 
+arm-none-eabi-objdump -h -S  OFS_Driver.elf  > "OFS_Driver.list"
+   text	   data	    bss	    dec	    hex	filename
+  33568	    124	   2804	  36496	   8e90	OFS_Driver.elf
+Finished building: default.size.stdout
+ 
+Finished building: OFS_Driver.list
+ 
